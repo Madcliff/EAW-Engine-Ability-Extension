@@ -61,7 +61,7 @@ def rewrite(text, here, ids):
         if re.match(r'[a-z]+://', target) or target.startswith('#'):
             return m.group(0)
         path, _, frag = target.partition('#')
-        full = os.path.normpath(os.path.join(os.path.dirname(here), path))
+        full = os.path.normpath(os.path.join(ROOT, os.path.dirname(here), path))
         rel = os.path.relpath(full, ROOT)
         if rel in ids:
             return '[%s](#%s)' % (label, frag if frag else 'doc-' + ids[rel])
