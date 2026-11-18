@@ -1,0 +1,88 @@
+1400047ed  check 0x1400047da  movzx     mul=0x1 add=0xfef8  movzx  eax,BYTE PTR [rdx+rax*1+0xfef8]
+14043fa9f  check 0x140044de2  movzx     mul=0x30 add=0x2a  movzx  eax,BYTE PTR [rcx+rdx*8+0x2a]   [in 0x14043fa90]   [in 0x140397d90]
+140397de1  check 0x140044de2  mov       mul=0x10 add=0x3d0  mov    rax,QWORD PTR [rbx+rax*8]   [in 0x140397d90]
+1402e0590  check 0x1402e0583  cmp       mul=0x18 add=0x18d0  cmp    DWORD PTR [rcx+rax*8+0x18d0],0x0
+1402e059e  check 0x1402e0583  mov       mul=0x18 add=0x18c8  mov    rax,QWORD PTR [rcx+rax*8+0x18c8]
+1402e0760  check 0x1402e074f  cmp       mul=0x18 add=0x18d0  cmp    DWORD PTR [rcx+rsi*8+0x18d0],0x0
+1402e0783  check 0x1402e074f  nop       mul=0x1 add=-0x1  nop    DWORD PTR [rax+0x0]
+1402e0787  check 0x1402e074f  nop       mul=0x1 add=-0x1  nop    WORD PTR [rax+rax*1+0x0]
+1402e0790  check 0x1402e074f  mov       mul=0x18 add=0x18c8  mov    rax,QWORD PTR [rbx+rsi*8+0x18c8]
+1402e07b9  check 0x1402e074f  mov       mul=0x18 add=0x18d0  mov    eax,DWORD PTR [rbx+rsi*8+0x18d0]
+1402e07e0  check 0x1402e074f  mov       mul=0x18 add=0x18c8  mov    rax,QWORD PTR [rbx+rsi*8+0x18c8]
+14042f900  check 0x1402e074f  cmp       mul=0x4 add=0x8  cmp    DWORD PTR [rcx+rax*4+0x8],0x0   [in 0x14042f8e0]
+1402e0821  check 0x1402e074f  cmp       mul=0x18 add=0x18d0  cmp    ebp,DWORD PTR [rbx+rsi*8+0x18d0]
+1403986dd  check 0x1402e074f  movzx     mul=0x1 add=0x39880c  movzx  eax,BYTE PTR [rcx+rdi*1+0x39880c]   [in 0x1403986b0]
+14043eadf  check 0x1402e074f  mov       mul=0x30 add=0x24  mov    eax,DWORD PTR [rcx+rdx*8+0x24]   [in 0x14043ead0]   [in 0x1403986b0]
+1402e08da  check 0x1402e074f  lea-base  mul=0x18 add=0x0  lea    rcx,[rcx+rsi*8]
+1402e0953  check 0x1402e0937  cmp       mul=0x18 add=0x18d0  cmp    DWORD PTR [rcx+rax*8+0x18d0],0x0
+1402e0982  check 0x1402e0937  mov       mul=0x18 add=0x18c8  mov    rax,QWORD PTR [r13+rax*8+0x18c8]
+1402e0afa  check 0x1402e0937  movzx     mul=0x1 add=0x2e0bc7  movzx  eax,BYTE PTR [r8+rax*1+0x2e0bcc]
+140384919  check 0x1403848fe  cmp       mul=0x1 add=0x384  cmp    BYTE PTR [rdi+rax*1+0x384],0x0
+140384973  check 0x140384958  cmp       mul=0x1 add=0x384  cmp    BYTE PTR [rdi+rax*1+0x384],0x0
+14043fa3f  check 0x14038a38a  movzx     mul=0x30 add=0x2c  movzx  eax,BYTE PTR [rcx+rdx*8+0x2c]   [in 0x14043fa30]   [in 0x14039b480]
+14042f7c0  check 0x14038a38a  cmp       mul=0x1 add=0x270  cmp    BYTE PTR [rdx+rcx*1+0x270],0x0   [in 0x14042f7a0]   [in 0x14039b480]
+14042f7ca  check 0x14038a38a  mov       mul=0x4 add=0x13c  mov    eax,DWORD PTR [rcx+rdx*4+0x13c]   [in 0x14042f7a0]   [in 0x14039b480]
+14042f7d1  check 0x14038a38a  cmp       mul=0x4 add=0x8  cmp    DWORD PTR [rcx+rdx*4+0x8],eax   [in 0x14042f7a0]   [in 0x14039b480]
+14038a4e6  check 0x14038a38a  cmp       mul=0x10 add=0x3d0  cmp    QWORD PTR [rbx+rcx*8],0x0
+14038a544  check 0x14038a38a  movzx     mul=0x1 add=0x38c51f  movzx  eax,BYTE PTR [rdx+rax*1+0x38c520]
+140397de1  check 0x140397da4  mov       mul=0x10 add=0x3d0  mov    rax,QWORD PTR [rbx+rax*8]
+140398055  check 0x140398042  mov       mul=0x10 add=0x3d0  mov    rcx,QWORD PTR [rbx+rax*8]
+14039805e  check 0x140398042  cmp       mul=0x10 add=0x3d8  cmp    BYTE PTR [rbx+rax*8+0x8],0x0
+140398093  check 0x140398080  mov       mul=0x10 add=0x3d0  mov    rcx,QWORD PTR [rbx+rax*8]
+14039809c  check 0x140398080  cmp       mul=0x10 add=0x3d8  cmp    BYTE PTR [rbx+rax*8+0x8],0x0
+1403984c4  check 0x1403984af  movzx     mul=0x1 add=0x39861c  movzx  eax,BYTE PTR [rax+rbp*1+0x39861c]
+1403984c4  check 0x1403984b8  movzx     mul=0x1 add=0x39861c  movzx  eax,BYTE PTR [rax+rbp*1+0x39861c]
+1403986dd  check 0x1403986c8  movzx     mul=0x1 add=0x39880c  movzx  eax,BYTE PTR [rcx+rdi*1+0x39880c]
+1403986dd  check 0x1403986d1  movzx     mul=0x1 add=0x39880c  movzx  eax,BYTE PTR [rcx+rdi*1+0x39880c]
+140398c77  check 0x140398c6b  mov       mul=0x10 add=0x3d0  mov    rcx,QWORD PTR [rbx+rsi*8]
+140398c90  check 0x140398c6b  mov       mul=0x10 add=0x3d0  mov    QWORD PTR [rbx+rsi*8],rbp
+14043fa7f  check 0x14039b977  movzx     mul=0x30 add=0x20  movzx  eax,BYTE PTR [rcx+rdx*8+0x20]   [in 0x14043fa70]
+1403a3e89  check 0x1403a3e34  mov       mul=0x10 add=0x3d0  mov    rax,QWORD PTR [rbx+rsi*8]
+1403a3fba  check 0x1403a3e34  mov       mul=0x10 add=0x3d0  mov    rcx,QWORD PTR [rbx+rsi*8]
+140429ded  check 0x140429dc7  nop       mul=0x1 add=-0x1  nop    DWORD PTR [rax]
+140429ea5  check 0x140429e7f  data16    mul=0x1 add=0x0  data16 data16 nop WORD PTR [rax+rax*1+0x0]
+14042f38e  check 0x14042f37a  mov       mul=0x4 add=0x8  mov    ecx,DWORD PTR [rdi+rbx*4+0x8]
+14042f39b  check 0x14042f37a  mov       mul=0x4 add=0x13c  mov    eax,DWORD PTR [rdi+rbx*4+0x13c]
+14042f3d2  check 0x14042f37a  mov       mul=0x4 add=0x13c  mov    edx,DWORD PTR [rdi+rbx*4+0x13c]
+14042f400  check 0x14042f37a  mov       mul=0x4 add=0x8  mov    DWORD PTR [rdi+rbx*4+0x8],eax
+14043fa1f  check 0x14042f48a  movzx     mul=0x30 add=0x29  movzx  eax,BYTE PTR [rcx+rdx*8+0x29]   [in 0x14043fa10]
+14042f53c  check 0x14042f48a  cmp       mul=0x10 add=0xc70  cmp    QWORD PTR [rcx+rax*8],rbp
+14042f5a1  check 0x14042f48a  mov       mul=0x10 add=0x1610  mov    rdx,QWORD PTR [rax+rdx*8]
+14042f5b1  check 0x14042f48a  mov       mul=0x1 add=0x270  mov    BYTE PTR [rdi+r15*1+0x270],bpl
+14042f6c0  check 0x14042f6a3  mov       mul=0x4 add=0x8  mov    r8d,DWORD PTR [rax+rcx*4+0x8]
+14042f6ca  check 0x14042f6a3  mov       mul=0x4 add=0x13c  mov    edx,DWORD PTR [rax+rcx*4+0x13c]
+14042f73b  check 0x14042f713  movd      mul=0x4 add=0x8  movd   xmm0,DWORD PTR [rcx+rax*4+0x8]
+14042f7c0  check 0x14042f7a3  cmp       mul=0x1 add=0x270  cmp    BYTE PTR [rdx+rcx*1+0x270],0x0
+14042f7ca  check 0x14042f7a3  mov       mul=0x4 add=0x13c  mov    eax,DWORD PTR [rcx+rdx*4+0x13c]
+14042f7d1  check 0x14042f7a3  cmp       mul=0x4 add=0x8  cmp    DWORD PTR [rcx+rdx*4+0x8],eax
+14042f800  check 0x14042f7e3  cmp       mul=0x1 add=0x270  cmp    BYTE PTR [rcx+rax*1+0x270],0x0
+14042f80a  check 0x14042f7e3  cmp       mul=0x4 add=0x8  cmp    DWORD PTR [rax+rcx*4+0x8],0x0
+14042f8af  check 0x14042f893  cmp       mul=0x4 add=0x8  cmp    DWORD PTR [rdx+rax*4+0x8],0x0
+14042f900  check 0x14042f8e3  cmp       mul=0x4 add=0x8  cmp    DWORD PTR [rcx+rax*4+0x8],0x0
+14042fa96  check 0x14042fa77  mov       mul=0x4 add=0x13c  mov    DWORD PTR [rdx+r10*4+0x13c],r8d
+14042fa9e  check 0x14042fa77  mov       mul=0x4 add=0x8  mov    DWORD PTR [rdx+r10*4+0x8],r8d
+14042fb1f  check 0x14042faea  mov       mul=0x4 add=0x13c  mov    DWORD PTR [rdx+r8*4+0x13c],ecx
+14042fb27  check 0x14042faea  mov       mul=0x4 add=0x8  mov    DWORD PTR [rdx+r8*4+0x8],ecx
+14042fdad  check 0x14042fb82  mov       mul=0x1 add=0x270  mov    BYTE PTR [r15+rcx*1+0x270],0x0
+14042fb1f  check 0x14042fb82  mov       mul=0x4 add=0x13c  mov    DWORD PTR [rdx+r8*4+0x13c],ecx   [in 0x14042fae0]
+14042fb27  check 0x14042fb82  mov       mul=0x4 add=0x8  mov    DWORD PTR [rdx+r8*4+0x8],ecx   [in 0x14042fae0]
+14042fe3f  check 0x14042fdf3  mov       mul=0x4 add=0x8  mov    DWORD PTR [rdi+rbx*4+0x8],0x0
+14042fe47  check 0x14042fdf3  mov       mul=0x1 add=0x270  mov    BYTE PTR [rbx+rdi*1+0x270],0x1
+14043eabf  check 0x14043eab0  movzx     mul=0x30 add=0x2b  movzx  eax,BYTE PTR [rcx+rdx*8+0x2b]
+14043eadf  check 0x14043ead0  mov       mul=0x30 add=0x24  mov    eax,DWORD PTR [rcx+rdx*8+0x24]
+14043eb7c  check 0x14043eb3b  add-base  mul=0x30 add=0x0  add    rdx,r14
+14043ebda  check 0x14043ebc9  add-base  mul=0x30 add=0x0  add    rdx,rcx
+14043ecb9  check 0x14043eca8  cmp       mul=0x30 add=0x2b  cmp    BYTE PTR [r15+rdx*8+0x2b],0x0
+14043f013  check 0x14043f007  cmp       mul=0x30 add=0x2b  cmp    BYTE PTR [rcx+r9*8+0x2b],0x0
+14043f3a9  check 0x14043f398  cmp       mul=0x30 add=0x2b  cmp    BYTE PTR [r15+rdx*8+0x2b],0x0
+14043f704  check 0x14043f6f7  cmp       mul=0x30 add=0x2b  cmp    BYTE PTR [rcx+r9*8+0x2b],0x0
+14043fa1f  check 0x14043fa10  movzx     mul=0x30 add=0x29  movzx  eax,BYTE PTR [rcx+rdx*8+0x29]
+14043fa3f  check 0x14043fa30  movzx     mul=0x30 add=0x2c  movzx  eax,BYTE PTR [rcx+rdx*8+0x2c]
+14043fa5f  check 0x14043fa50  movzx     mul=0x30 add=0x28  movzx  eax,BYTE PTR [rcx+rdx*8+0x28]
+14043fa7f  check 0x14043fa70  movzx     mul=0x30 add=0x20  movzx  eax,BYTE PTR [rcx+rdx*8+0x20]
+14043fa9f  check 0x14043fa90  movzx     mul=0x30 add=0x2a  movzx  eax,BYTE PTR [rcx+rdx*8+0x2a]
+14055e823  check 0x14055e818  mov       mul=0x4 add=0x55ecf8  mov    ecx,DWORD PTR [r14+rax*4+0x55ecf8]
+140562b92  check 0x140562b7c  lea-base  mul=0x4 add=0x13c  lea    rdx,[rsi+rax*4]
+140562c39  check 0x140562c23  lea-base  mul=0x4 add=0x8  lea    rdx,[rsi+rax*4]
+140562c86  check 0x140562c23  lea-base  mul=0x4 add=0x13c  lea    rdx,[rsi+rax*4]
+140562c86  check 0x140562c70  lea-base  mul=0x4 add=0x13c  lea    rdx,[rsi+rax*4]

@@ -1,0 +1,53 @@
+# Example settings for ZZ_SWFOC.dll (EAW Engine Ability Extension). Put this file in your mod's Data/ folder. One "name value" per line; # starts a comment.
+
+# The engine has weapon inaccuracy built in (unit Targeting_Fire_Inaccuracy / Targeting_Fire_Inaccuracy_Fixed_Radius,
+# hardpoint Fire_Inaccuracy_Distance) but never switches it on, so every weapon aims exactly at its target.
+# on = apply those XML values (units AND hardpoints miss by the amounts given); off = stock behaviour.
+weapon_inaccuracy on
+
+# lua_functions 0/1: register the Lua functions ZZ_Pull / ZZ_Aura / ZZ_Heal_Hardpoints in every script.
+lua_functions 1
+
+# id expansion: number of new ability ids after the stock 0x4c (0 = off, up to 128; above ~50 the DLL widens the engine's one-byte id checks)
+ability_expansion 0
+
+ability_type_map off
+
+# diagnostics on = install the debug hooks (click / ability chain / targeting / object creation logging, hero watch)
+# and log everything to zz_ability_buttons.log. off (normal play) = no debug hooks; after startup only problems
+# (errors, unknown names, Lua Guard reports, crashes) are logged.
+diagnostics off
+
+# hero bar (top right): 4 rows = 22 slots per side (needs the hero bar XML + frame models)
+hero_bar_rows 4
+
+# fog_targeting on = ability reticles may aim at fogged / unrevealed ground. Stock: BARRAGE, PROXIMITY_MINES, SUMMON,
+# CORRUPT_SYSTEMS, RADIOACTIVE_CONTAMINATE and every targeting=location type refuse a fogged point (red cursor, no
+# order); WEAKEN_ENEMY-style abilities already allowed it. A type in zz_ability_types.txt can keep the check with fog=off.
+# Units hidden in the fog still cannot be clicked as a target (aim at the ground under them). off = patch not installed.
+fog_targeting on
+
+# double_cards_first on = in the tactical selection bar, card groups that hold a double-card unit (zz_wide_cards.txt)
+# are laid out first (card column 0), so they get rows of 4 and the control panel column next to them. Stock order is
+# by the units' first ability type id. off = patch not installed.
+double_cards_first on
+# ui_first Type,Type,... (optional): order among those first groups, in list order; a listed single-card type is also
+# pulled ahead of the normal groups (after all double-card groups). Example: ui_first REVAN_INTERDICTOR_REPUBLIC_I,Revan_Jedi_MW_I
+# ui_first
+
+# wide_shared_groups on = a card group that holds a double-card unit always gets rows of 4 and the empty control panel
+# column, also when the group spans several card columns. Card groups are keyed by the units' first ability type, so
+# Revan's Interdictor shares its group with other INTERDICT ships; stock (and off) that group got rows of 2 and no
+wide_shared_groups on
+
+# damage_hook on = the DLL hooks the engine's damage function (every hit) so the aura keys reflect= and absorb= work;
+damage_hook on
+
+# panel_card_pads on = the control panel column next to a double-card unit uses its two card buttons as a plain pad
+# behind the panel buttons, with that column's health and shield bars hidden. off = the old pad (the column's health
+panel_card_pads on
+
+# galactic_ranges on = System Spy uses its own range from zz_galactic_ranges.txt (by ability Name= or unit type)
+# instead of the unit's Galactic_Influence_Range, which stays in use for the unit's other galactic abilities
+# (production price/time etc.). off = patch not installed.
+galactic_ranges on

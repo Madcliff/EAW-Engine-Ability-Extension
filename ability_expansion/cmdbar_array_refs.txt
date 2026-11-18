@@ -1,0 +1,32 @@
+14008fe54 fn 14008f6c0 field lea    rdx,[r13+0x18d0]
+1400d79aa fn 1400d7200 field lea    rdx,[rbx+0x18d0]
+140119ed7 fn 140119830 field lea    rdx,[rbx+0x18d0]
+1402d9e17 fn 1402d9890 field lea    rax,[rdi+0x18c0]
+1402db2df fn 1402dac80 field lea    rbx,[rsi+0x18c0]
+1402e0590 fn 1402e0570 field cmp    DWORD PTR [rcx+rax*8+0x18d0],0x0
+1402e059e fn 1402e0570 field mov    rax,QWORD PTR [rcx+rax*8+0x18c8]
+1402e0760 fn 1402e0730 field cmp    DWORD PTR [rcx+rsi*8+0x18d0],0x0
+1402e0790 fn 1402e0730 field mov    rax,QWORD PTR [rbx+rsi*8+0x18c8]
+1402e07b9 fn 1402e0730 field mov    eax,DWORD PTR [rbx+rsi*8+0x18d0]
+1402e07e0 fn 1402e0730 field mov    rax,QWORD PTR [rbx+rsi*8+0x18c8]
+1402e0821 fn 1402e0730 field cmp    ebp,DWORD PTR [rbx+rsi*8+0x18d0]
+1402e08cd fn 1402e0730 field lea    rcx,[rbx+0x18c0]
+1402e0953 fn 1402e0920 field cmp    DWORD PTR [rcx+rax*8+0x18d0],0x0
+1402e0982 fn 1402e0920 field mov    rax,QWORD PTR [r13+rax*8+0x18c8]
+1402e0a63 fn 1402e0920 field cmp    r12d,DWORD PTR [r13+rax*8+0x18d0]
+1402e0b43 fn 1402e0920 field lea    rcx,[rcx*8+0x18c0]
+1402e2c8b fn 1402e2910 field lea    rdx,[r13+0x18d0]
+1402f0b66 fn 1402f0af0 field lea    rdx,[rbx+0x18d0]
+1403071d6 fn 140307190 field cmp    DWORD PTR [rcx+rax*8+0x18d0],r13d
+1403071f0 fn 140307190 field mov    rax,QWORD PTR [r12+rax*8+0x18c8]
+140307305 fn 140307190 field cmp    DWORD PTR [r12+rax*8+0x18d0],r13d
+140307330 fn 140307190 field mov    rax,QWORD PTR [r12+rax*8+0x18c8]
+14030742f fn 140307190 field cmp    r14d,DWORD PTR [r12+rax*8+0x18d0]
+1403074c2 fn 140307190 field cmp    esi,DWORD PTR [r12+rax*8+0x18d0]
+14031b9bc fn 14031b590 field mov    DWORD PTR [r11+0x18d0],r13d
+14031c37d fn 14031b590 field lea    rdi,[r13+0x18c0]
+1403686eb fn 140367100 field mov    QWORD PTR [rdi+0x18c0],r13
+1403686f2 fn 140367100 field mov    QWORD PTR [rdi+0x18c8],0xf
+1403686fd fn 140367100 field mov    QWORD PTR [rdi+0x18d0],r13
+14036b34b fn 14036a070 field lea    rcx,[rbx+0x18d0]
+14036e699 fn 14036c000 field lea    rcx,[rsi+0x18d0]

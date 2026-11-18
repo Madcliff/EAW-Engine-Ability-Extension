@@ -1,0 +1,27 @@
+14014feb9 fn 14014fd40 idx*8  0x0    mov    eax,DWORD PTR [rbx+rsi*8]
+14014fec1 fn 14014fd40 idx*8  0x4    mov    eax,DWORD PTR [rbx+rsi*8+0x4]
+14015031c fn 1401501c0 idx*8  0x0    mov    eax,DWORD PTR [r10+r15*8]
+140150323 fn 1401501c0 idx*8  0x4    mov    eax,DWORD PTR [r10+r15*8+0x4]
+1401504e5 fn 1401503c0 idx*8  0x0    mov    eax,DWORD PTR [r9+r14*8]
+1401504ed fn 1401503c0 idx*8  0x4    mov    eax,DWORD PTR [r9+r14*8+0x4]
+1402bb438 fn 1402bac30 fixed  0x0    mov    rax,QWORD PTR [rcx]
+140410ca0 fn 140410c60 idx*8  0x0    mov    rbx,QWORD PTR [rdx+rcx*8]
+14042f62f fn 14042f600 fixed  0x2c0  mov    DWORD PTR [rdx+0x2c0],eax
+14042f6c0 fn 14042f6a0 idx*4  0x8    mov    r8d,DWORD PTR [rax+rcx*4+0x8]
+14042f6ca fn 14042f6a0 idx*4  0x13c  mov    edx,DWORD PTR [rax+rcx*4+0x13c]
+14042f73b fn 14042f710 idx*4  0x8    movd   xmm0,DWORD PTR [rcx+rax*4+0x8]
+14042f788 fn 14042f760 fixed  0x2c0  mov    DWORD PTR [rdx+0x2c0],eax
+14042f7ca fn 14042f7a0 idx*4  0x13c  mov    eax,DWORD PTR [rcx+rdx*4+0x13c]
+14042f7d1 fn 14042f7a0 idx*4  0x8    cmp    DWORD PTR [rcx+rdx*4+0x8],eax
+14042f80a fn 14042f7e0 idx*4  0x8    cmp    DWORD PTR [rax+rcx*4+0x8],0x0
+14042f8af fn 14042f820 idx*4  0x8    cmp    DWORD PTR [rdx+rax*4+0x8],0x0
+14042f900 fn 14042f8e0 idx*4  0x8    cmp    DWORD PTR [rcx+rax*4+0x8],0x0
+14042f948 fn 14042f910 fixed  0x270  lea    rbp,[r13+0x270]
+14042f959 fn 14042f910 fixed  0x8    lea    rdi,[r13+0x8]
+14042f965 fn 14042f910 fixed  0x2c0  sub    r15d,DWORD PTR [r13+0x2c0]
+14042fa96 fn 14042fa70 idx*4  0x13c  mov    DWORD PTR [rdx+r10*4+0x13c],r8d
+14042fa9e fn 14042fa70 idx*4  0x8    mov    DWORD PTR [rdx+r10*4+0x8],r8d
+14042fb1f fn 14042fae0 idx*4  0x13c  mov    DWORD PTR [rdx+r8*4+0x13c],ecx
+14042fb27 fn 14042fae0 idx*4  0x8    mov    DWORD PTR [rdx+r8*4+0x8],ecx
+1404a9816 fn 1404a96d0 fixed  0x14   lea    rax,[r9+0x14]
+1404a9892 fn 1404a96d0 idx*4  0x0    lea    rcx,[r9+rax*4]

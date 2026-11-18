@@ -1,0 +1,142 @@
+function 0x (1 sites)
+  0x1400047da  cmp ..,0x4b  switch  | before: jg     0x140004991 je     0x140004989 add    ecx,0x7ff6fcf6 | after: ja     0x14000d228 lea    rdx,[rip+0xfff
+function 0x140035e40 (1 sites)
+  0x140035e6d  cmp ..,0x4b  range   | before: mov    rdi,rcx jl     0x140035edc lea    eax,[r9-0x1] | after: ja     0x140035edc cmp    esi,0x6
+function 0x140035f00 (1 sites)
+  0x140035f3b  cmp ..,0x4b  range   | before: mov    rbx,rcx jl     0x140036031 lea    eax,[r9-0x1] | after: ja     0x140036031 cmp    edi,0x6
+function 0x140036060 (1 sites)
+  0x140036098  cmp ..,0x4b  range   | before: mov    rbx,rcx jl     0x140036118 lea    eax,[r9-0x1] | after: ja     0x140036118 cmp    edi,0x6
+function 0x140037940 (1 sites)
+  0x140037969  cmp ..,0x4b  range   | before: mov    rsi,rcx jl     0x1400379d9 lea    eax,[r8-0x1] | after: ja     0x1400379d9 cmp    ebx,0x6
+function 0x140037a00 (1 sites)
+  0x140037a2d  cmp ..,0x4b  range   | before: mov    rsi,rcx jl     0x140037ac0 lea    eax,[r8-0x1] | after: ja     0x140037ac0 cmp    ebx,0x6
+function 0x140037ae0 (1 sites)
+  0x140037b0d  cmp ..,0x4b  range   | before: mov    rsi,rcx jl     0x140037c0a lea    eax,[r8-0x1] | after: ja     0x140037c0a cmp    ebx,0x6
+function 0x140044d90 (1 sites)
+  0x140044de2  cmp ..,0x4b  range   | before:      0x140044e50 mov    edx,DWORD PTR [rcx+0x948] lea    eax,[rdx-0x1] | after: ja     0x140044e50 mov    rax,QWORD PTR 
+function 0x140061fe0 (1 sites)
+  0x140062ffb  cmp ..,0x4d  range   | before: ja     0x1400631a9 call   0x140769c94 inc    ebx | after: jl     0x140062f60 inc    r14d
+function 0x1400a2d50 (1 sites)
+  0x1400a2e4c  cmp ..,0x4b  range   | before: e     0x1400a2f08 mov    edi,DWORD PTR [rax+0x18] lea    eax,[rdi-0x1] | after: ja     0x1400a2f08 mov    ecx,0x50
+function 0x1402e0570 (1 sites)
+  0x1402e0583  cmp ..,0x4b  range   | before: movsxd rsi,edx mov    rbx,rcx lea    eax,[rsi-0x1] | after: ja     0x1402e071d lea    rax,[rsi+rsi*2
+function 0x1402e0730 (1 sites)
+  0x1402e074f  cmp ..,0x4b  range   | before: mov    r13d,r8d mov    rbx,rcx lea    eax,[r15-0x1] | after: ja     0x1402e0905 mov    QWORD PTR [r11
+function 0x1402e0920 (1 sites)
+  0x1402e0937  cmp ..,0x4b  range   | before: movsxd rbp,edx mov    r13,rcx lea    eax,[rbp-0x1] | after: ja     0x1402e0bad lea    rax,[rbp*2+0x0
+function 0x1402f9270 (1 sites)
+  0x1402f927c  cmp ..,0x4b  range   | before: sub    rsp,0x50 lea    eax,[rdx-0x1] mov    rdi,rcx | after: ja     0x1402f93e3 cmp    edx,0x19
+function 0x1402f93f0 (1 sites)
+  0x1402f93fc  cmp ..,0x4b  range   | before: sub    rsp,0x50 lea    eax,[rdx-0x1] mov    rdi,rcx | after: ja     0x1402f9563 cmp    edx,0xe
+function 0x1402f9570 (1 sites)
+  0x1402f957c  cmp ..,0x4b  range   | before: sub    rsp,0x50 lea    eax,[rdx-0x1] mov    rdi,rcx | after: ja     0x1402f96e3 cmp    edx,0x18
+function 0x1402f96f0 (1 sites)
+  0x1402f96fc  cmp ..,0x4b  range   | before: sub    rsp,0x50 lea    eax,[rdx-0x1] mov    rdi,rcx | after: ja     0x1402f9863 cmp    edx,0x17
+function 0x14031b590 (1 sites)
+  0x14031d07f  cmp ..,0x4d  range   | before:    r11,QWORD PTR [rbp+0xe0] inc    r8d mov    DWORD PTR [rsp+0x44],r8d | after: jge    0x14031d08e mov    r14,QWORD PTR 
+function 0x140384850 (2 sites)
+  0x1403848fe  cmp ..,0x4b  range   | before: call   0x140374b50 movsxd rdi,eax lea    ecx,[rdi-0x1] | after: ja     0x14038493d mov    rcx,QWORD PTR 
+  0x140384958  cmp ..,0x4b  range   | before: call   0x140374b50 movsxd rdi,eax lea    ecx,[rdi-0x1] | after: ja     0x140384997 mov    rcx,QWORD PTR 
+function 0x14038a350 (1 sites)
+  0x14038a38a  cmp ..,0x4b  range   | before: movzx  r15d,r8b mov    rbx,rcx lea    eax,[r13-0x1] | after: ja     0x14038a897 mov    edx,r13d
+function 0x140397d90 (1 sites)
+  0x140397da4  cmp ..,0x4d  range   | before: mov    rbx,rcx test   edx,edx jle    0x140397df0 | after: jge    0x140397df0 mov    edx,edi
+function 0x140398010 (2 sites)
+  0x140398042  cmp ..,0x4c  range   | before: mov    rcx,QWORD PTR [rcx+0x298] movaps xmm6,xmm7 call   0x140374b50 | after: ja     0x14039806f cmp    eax,0x22
+  0x140398080  cmp ..,0x4c  range   | before: mov    rcx,QWORD PTR [rbx+0x298] mov    edx,0x1 call   0x140374b50 | after: ja     0x1403980ae cmp    eax,0x22
+function 0x140398470 (3 sites)
+  0x1403984af  cmp ..,0x4b  range   | before: add    r14,0x10 jmp    0x1403984a0 lea    eax,[rbx-0x1] | after: ja     0x1403985d6 cmp    ebx,0x4d
+  0x1403984b8  cmp ..,0x4d  switch  | before: lea    eax,[rbx-0x1] cmp    eax,0x4b ja     0x1403985d6 | after: ja     0x140398568 movsxd rax,ebx
+  0x1403985dc  cmp ..,0x4d  range   | before: jne    0x140398600 inc    ebx add    r14,0x10 | after: jl     0x1403984a0 xor    al,al
+function 0x1403986b0 (2 sites)
+  0x1403986c8  cmp ..,0x4b  range   | before: movsxd rdi,edx mov    rbx,rcx lea    eax,[rdi-0x1] | after: ja     0x1403987b0 cmp    edi,0x4d
+  0x1403986d1  cmp ..,0x4d  switch  | before: lea    eax,[rdi-0x1] cmp    eax,0x4b ja     0x1403987b0 | after: ja     0x14039874b lea    rcx,[rip+0xfff
+function 0x1403989a0 (2 sites)
+  0x140398c6b  cmp ..,0x4b  range   | before: D PTR [rcx+rdx*8] movsxd rcx,DWORD PTR [rbp+0x18] lea    eax,[rcx-0x1] | after: ja     0x140398ca3 lea    rsi,[rcx+0x3d]
+  0x140398ef7  cmp ..,0x4b  range   | before: e     0x140398fb1 mov    ebp,DWORD PTR [rax+0x18] lea    eax,[rbp-0x1] | after: ja     0x140398fb1 mov    ecx,0x50
+function 0x14039b480 (2 sites)
+  0x14039b4a0  cmp ..,0x4b  range   | before: movzx  edi,r8b mov    ebp,edx mov    rbx,rcx | after: ja     0x14039b674 test   r9b,r9b
+  0x14039b977  cmp ..,0x4b  range   | before: movzx  ebp,r8b mov    rbx,rcx lea    eax,[rdi-0x1] | after: ja     0x14039bba8 mov    edx,edi
+function 0x14039c3a0 (1 sites)
+  0x14039c7c1  cmp ..,0x4d  range   | before: inc    edi and    sil,al je     0x14039c54a | after: jl     0x14039c7a0 jmp    0x14039c54a
+function 0x1403a3e20 (1 sites)
+  0x1403a3e34  cmp ..,0x4b  range   | before: mov    rbp,r9 mov    rbx,rcx lea    eax,[rdi-0x1] | after: ja     0x1403a4063 cmp    edi,0x27
+function 0x140429960 (1 sites)
+  0x14042997b  cmp ..,0x4b  range   | before: mov    eax,DWORD PTR [rcx+0x250] mov    r13,rcx dec    eax | after: ja     0x140429c98 mov    edx,DWORD PTR 
+function 0x140429da0 (1 sites)
+  0x140429dc7  cmp ..,0x4b  range   | before: mov    rbx,rdx mov    r11,rcx lea    eax,[rsi-0x1] | after: ja     0x140429e3c mov    r10d,0x7f
+function 0x140429e60 (1 sites)
+  0x140429e7f  cmp ..,0x4b  range   | before: mov    esi,r8d mov    rbx,rdx mov    r11,rcx | after: ja     0x140429ef2 mov    r10d,0x7f
+function 0x14042f320 (1 sites)
+  0x14042f37a  cmp ..,0x4d  range   | before: jg     0x14042f37a xorps  xmm0,xmm0 jmp    0x14042f3c4 | after: jl     0x14042f384 xorps  xmm0,xmm0
+function 0x14042f460 (1 sites)
+  0x14042f48a  cmp ..,0x4b  range   | before: test   r15,r15 je     0x14042f5ec lea    eax,[rdi-0x1] | after: ja     0x14042f5ec cmp    BYTE PTR [rbx+
+function 0x14042f6a0 (1 sites)
+  0x14042f6a3  cmp ..,0x4b  range   | before: int3 int3 lea    eax,[rdx-0x1] | after: ja     0x14042f6fe mov    rax,QWORD PTR 
+function 0x14042f710 (1 sites)
+  0x14042f713  cmp ..,0x4b  range   | before: int3 int3 lea    eax,[rdx-0x1] | after: ja     0x14042f749 mov    rax,QWORD PTR 
+function 0x14042f7a0 (1 sites)
+  0x14042f7a3  cmp ..,0x4b  range   | before: int3 int3 lea    eax,[rdx-0x1] | after: ja     0x14042f7da mov    rcx,QWORD PTR 
+function 0x14042f7e0 (1 sites)
+  0x14042f7e3  cmp ..,0x4b  range   | before: int3 int3 lea    eax,[rdx-0x1] | after: ja     0x14042f814 mov    rax,QWORD PTR 
+function 0x14042f820 (1 sites)
+  0x14042f893  cmp ..,0x4d  range   | before: add    rsp,0x20 pop    rdi ret | after: jge    0x14042f881 mov    rcx,QWORD PTR 
+function 0x14042f8e0 (1 sites)
+  0x14042f8e3  cmp ..,0x4b  range   | before: int3 int3 lea    eax,[rdx-0x1] | after: ja     0x14042f90a mov    rax,QWORD PTR 
+function 0x14042f910 (1 sites)
+  0x14042fa20  cmp ..,0x4d  range   | before: inc    esi add    rdi,0x4 inc    rbp | after: jl     0x14042f980 mov    r13,QWORD PTR 
+function 0x14042fa70 (1 sites)
+  0x14042fa77  cmp ..,0x4b  range   | before: int3 movsxd r10,edx lea    eax,[r10-0x1] | after: ja     0x14042fad1 test   r8d,r8d
+function 0x14042fae0 (1 sites)
+  0x14042faea  cmp ..,0x4b  range   | before: movsxd r8,edx mov    r9,rcx lea    eax,[r8-0x1] | after: ja     0x14042fb60 xorps  xmm0,xmm0
+function 0x14042fb70 (1 sites)
+  0x14042fb82  cmp ..,0x4b  range   | before: movsxd r15,edx mov    r14,rcx lea    eax,[r15-0x1] | after: ja     0x14042fdce mov    rcx,QWORD PTR 
+function 0x14042fde0 (1 sites)
+  0x14042fdf3  cmp ..,0x4b  range   | before: movsxd rbx,edx mov    rsi,rcx lea    eax,[rbx-0x1] | after: ja     0x14042fe54 mov    rcx,QWORD PTR 
+function 0x140430270 (1 sites)
+  0x140430323  cmp ..,0x4d  range   | before: jg     0x140430323 movzx  eax,BYTE PTR [rbx+0x25c] jmp    0x14043046c | after: jl     0x140430334 movzx  eax,BYTE PTR [
+function 0x1404376f0 (1 sites)
+  0x1404378e8  cmp ..,0x4d  range   | before: mov    rcx,rbx call   QWORD PTR [rax+0x8] inc    edi | after: jl     0x1404377b0 mov    r14,QWORD PTR 
+function 0x14043eab0 (1 sites)
+  0x14043eab0  cmp ..,0x4c  range   | before: int3 int3 int3 | after: ja     0x14043eac5 movsxd rax,edx
+function 0x14043ead0 (1 sites)
+  0x14043ead0  cmp ..,0x4c  range   | before: int3 int3 int3 | after: ja     0x14043eae4 movsxd rax,edx
+function 0x14043eaf0 (1 sites)
+  0x14043eb3b  cmp ..,0x4c  range   | before: mov    rcx,rdi call   0x140374b50 movsxd rbp,eax | after: ja     0x14043eb86 mov    edx,esi
+function 0x14043ebc0 (1 sites)
+  0x14043ebc9  cmp ..,0x4c  range   | before: rex push rbx sub    rsp,0x20 mov    rbx,rdx | after: ja     0x14043ebee movsxd rax,r8d
+function 0x14043ec10 (1 sites)
+  0x14043ec19  cmp ..,0x4c  range   | before: rex push rbx sub    rsp,0x20 mov    rbx,rdx | after: ja     0x14043ec35 mov    rcx,QWORD PTR 
+function 0x14043ec50 (1 sites)
+  0x14043eca8  cmp ..,0x4c  range   | before: mov    rcx,rdi call   0x140374b50 movsxd r14,eax | after: ja     0x14043efbe lea    rdx,[r14+r14*2
+function 0x14043eff0 (1 sites)
+  0x14043f007  cmp ..,0x4c  range   | before: sub    rsp,0x88 movsxd rdi,r8d mov    rbx,rdx | after: ja     0x14043f01b lea    r9,[rdi+rdi*2]
+function 0x14043f340 (1 sites)
+  0x14043f398  cmp ..,0x4c  range   | before: mov    rcx,rdi call   0x140374b50 movsxd r14,eax | after: ja     0x14043f6ad lea    rdx,[r14+r14*2
+function 0x14043f6e0 (1 sites)
+  0x14043f6f7  cmp ..,0x4c  range   | before: sub    rsp,0x80 movsxd r14,r8d mov    rbx,rdx | after: ja     0x14043f70c lea    r9,[r14+r14*2]
+function 0x14043fa10 (1 sites)
+  0x14043fa10  cmp ..,0x4c  range   | before: int3 int3 int3 | after: ja     0x14043fa25 movsxd rax,edx
+function 0x14043fa30 (1 sites)
+  0x14043fa30  cmp ..,0x4c  range   | before: int3 int3 int3 | after: ja     0x14043fa45 movsxd rax,edx
+function 0x14043fa50 (1 sites)
+  0x14043fa50  cmp ..,0x4c  range   | before: int3 int3 int3 | after: ja     0x14043fa65 movsxd rax,edx
+function 0x14043fa70 (1 sites)
+  0x14043fa70  cmp ..,0x4c  range   | before: int3 int3 int3 | after: ja     0x14043fa85 movsxd rax,edx
+function 0x14043fa90 (1 sites)
+  0x14043fa90  cmp ..,0x4c  range   | before: int3 int3 int3 | after: ja     0x14043faa5 movsxd rax,edx
+function 0x14055e7c0 (1 sites)
+  0x14055e818  cmp ..,0x4d  switch  | before: nop    DWORD PTR [rax+rax*1+0x0] mov    rcx,rbx call   0x140220710 | after: ja     0x14055ecbd cdqe
+function 0x140562ab0 (6 sites)
+  0x140562b1f  cmp ..,0x4d  range   | before: call   0x140220710 test   eax,eax jne    0x140562b42 | after: jge    0x140562b42 xor    r9d,r9d
+  0x140562b7c  cmp ..,0x4d  range   | before: call   0x140220710 test   eax,eax jne    0x140562b9d | after: jge    0x140562b9d xor    r9d,r9d
+  0x140562bcd  cmp ..,0x4d  range   | before: call   0x140220710 test   eax,eax jne    0x140562bf0 | after: jge    0x140562bf0 xor    r9d,r9d
+  0x140562c23  cmp ..,0x4d  range   | before: call   0x140220710 test   eax,eax jne    0x140562c44 | after: jge    0x140562c44 xor    r9d,r9d
+  0x140562c70  cmp ..,0x4d  range   | before: call   0x140220710 test   eax,eax jne    0x140562c91 | after: jge    0x140562c91 xor    r9d,r9d
+  0x140562cbd  cmp ..,0x4d  range   | before: call   0x140220710 test   eax,eax jne    0x140562ce0 | after: jge    0x140562ce0 xor    r9d,r9d
+function 0x14057f430 (1 sites)
+  0x14057f4a3  cmp ..,0x4d  range   | before: mov    rcx,rdi call   0x14042fa70 inc    ebx | after: jl     0x14057f483 mov    rbx,QWORD PTR 
+function 0x14057ff10 (1 sites)
+  0x14057ffe4  cmp ..,0x4d  range   | before: mov    edx,edi call   0x1403a78b0 inc    edi | after: jl     0x14057ffc0 mov    rax,QWORD PTR 
+function 0x140636260 (1 sites)
+  0x14063640a  cmp ..,0x4d  range   | before: 3f1e]        # 0x140b0a320 mov    DWORD PTR [rcx+0x110],eax inc    ebx | after: jl     0x1406363d0 inc    esi

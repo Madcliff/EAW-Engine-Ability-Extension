@@ -1,0 +1,16 @@
+# local history and reverse-engineering scratch (contains game binaries / disassembly: never publish)
+backups/
+re/
+*.exe
+*.bak_*
+# build outputs (the DLL is published as a release asset)
+dll/builds/
+dll/*.obj
+dll/*.lib
+dll/ZZ_SWFOC.dll
+dist/
+__pycache__/
+*.pyc
+*.log
+# local assistant notes
+CLAUDE.md
