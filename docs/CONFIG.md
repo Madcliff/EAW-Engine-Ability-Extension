@@ -70,9 +70,9 @@ two ways to get an id:
 | `depart_delay=S` | Seconds the caster stands frozen (casting) before vanishing |
 | `arrive_delay=S` | Seconds until it reappears at the target |
 | `depart_object=T` / `arrive_object=T` | Object or particle spawned where the caster leaves and arrives |
-| `group_radius=R` | Teleport takes the caster's own movable units within R along, keeping formation |
-| `group_max=N` | At most N group members (default 12; up to 64 units teleport at once) |
-| `group_categories=MASK` | Which units go along (default `Infantry\|Vehicle\|Air\|LandHero`) |
+| `group_radius=R` *(next release)* | Teleport takes the caster's own movable units within R along, keeping formation |
+| `group_max=N` *(next release)* | At most N group members (default 12; up to 64 units teleport at once) |
+| `group_categories=MASK` *(next release)* | Which units go along (default `Infantry\|Vehicle\|Air\|LandHero`) |
 | `anim=NAME` | Caster animation on activation (Play_Animation names without `_00`: `FL_ATTACK`, `FTK_HOLD`, …) |
 | `anim_loop=1` | Loop that animation |
 | `anim_hold=S` | Keep the caster in place for S seconds while it plays |
