@@ -1,5 +1,5 @@
 #!/bin/sh
-# Builds the player release zip: dist/EAW-Engine-Ability-Extension-v<version>.zip
+# Builds the player release zip dist/EAW-Engine-Ability-Extension-v<version>.zip and dist/EAW-Engine-Research.pdf
 #   release/make_release.sh <version> [--no-build]
 # --no-build packages the existing dll/ZZ_SWFOC.dll instead of running dll/build.sh (which needs the stock exe).
 set -e
@@ -7,6 +7,8 @@ cd "$(dirname "$0")/.."
 VER="$1"
 [ -n "$VER" ] || { echo "usage: $0 <version> [--no-build]" >&2; exit 1; }
 [ "$2" = "--no-build" ] || dll/build.sh
+# the generated engine index must match the source being released
+python3 -I tools/gen_engine_index.py --check || { echo "run release/make_pdf.sh (or tools/gen_engine_index.py) and commit first" >&2; exit 1; }
 NAME="EAW-Engine-Ability-Extension-v$VER"
 OUT="dist/$NAME"
 rm -rf "${OUT:?}" "dist/$NAME.zip"
@@ -20,4 +22,6 @@ chmod +x "$OUT/install.sh" "$OUT/install.py"
 (cd "$OUT" && sha256sum ZZ_SWFOC.dll install.ps1 install.py install.sh Install.bat Uninstall.bat Status.bat > SHA256SUMS.txt)
 (cd dist && zip -qr -X "$NAME.zip" "$NAME")
 echo "wrote dist/$NAME.zip"
+# research PDF, attached to the release as its own asset
+if command -v pandoc >/dev/null 2>&1; then python3 -I tools/build_research_pdf.py --version "$VER"; else echo "pandoc not found: research PDF skipped" >&2; fi
 sha256sum "dist/$NAME.zip"

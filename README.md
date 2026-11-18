@@ -48,6 +48,8 @@ The DLL reads its configuration from the running mod's `Data/` folder, which it 
 launch argument. If the game runs without `MODPATH`, it reads the files from the game's `corruption/` folder
 instead. Each file is optional, and a feature whose file or setting is missing stays off.
 
+**Every key, default and Lua function: [docs/CONFIG.md](docs/CONFIG.md).**
+
 | File | What it configures |
 |---|---|
 | `zz_settings.txt` | Feature switches, one `name value` per line (example: [docs/examples/zz_settings.txt](docs/examples/zz_settings.txt)) |
@@ -73,6 +75,18 @@ Known limits:
 - New ability ids aren't saved, so their cooldowns reset when a save loads.
 - The DLL only finds the mod through `MODPATH=`. With Steam Workshop launches (`STEAMMOD=`) it reads the files from
   the game folder instead.
+
+## Engine research
+
+How the engine works, and how each change is made, is documented in
+[docs/research/ENGINE.md](docs/research/ENGINE.md). It covers core objects, the ability system, damage and
+modifiers, the command bar, Lua and the hook techniques.
+[docs/research/ENGINE_INDEX.md](docs/research/ENGINE_INDEX.md) is generated from the source by
+`tools/gen_engine_index.py` and lists every config key, named engine address, patch site and DLL page. Each release
+attaches everything as one PDF (`EAW-Engine-Research.pdf`); build it locally with `release/make_pdf.sh`.
+
+Changes that add a hook, an address or a config key update these docs in the same commit (ENGINE.md §9), and
+`make_release.sh` refuses to package while the generated index is out of date.
 
 ## Building from source
 

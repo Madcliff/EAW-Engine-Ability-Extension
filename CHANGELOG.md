@@ -1,5 +1,12 @@
 # Changelog
 
+## Unreleased
+
+- Docs: engine research reference (`docs/research/ENGINE.md`), generated index of config keys / engine addresses /
+  patch sites / DLL pages (`tools/gen_engine_index.py` → `docs/research/ENGINE_INDEX.md`), modder config reference
+  (`docs/CONFIG.md`), stock ability type map and XML ability class research, and a unified research PDF
+  (`release/make_pdf.sh`, attached to releases). `make_release.sh` refuses to package while the index is stale.
+
 ## 0.1.0 – 2026-11-18
 
 First public release.

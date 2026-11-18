@@ -1,0 +1,450 @@
+tag,field,type_code,type,offset
+(base),Initially_Enabled,0,bool,0x40
+(base),Activation_Style,14,enum,0x3c
+(base),Causes_Despawn,0,bool,0x41
+(base),Terminate_Effect_On_Move_Command,0,bool,0x42
+(base),Unit_Strength_Category,86,category mask,0x48
+(base),Unit_Strength_Factor,8,float,0x50
+(base),Applicable_Unit_Categories,86,category mask,0x60
+(base),Applicable_Unit_Types,30,type list,0x68
+(base),Excluded_Unit_Categories,86,category mask,0x88
+(base),Excluded_Unit_Types,30,type list,0x90
+(base),Owner_Light_Effect_Type,14,enum,0xb0
+(base),Owner_Light_Effect_Color,16,colour,0xb4
+(base),Owner_Light_Effect_Color2,16,colour,0xc0
+(base),Owner_Light_Effect_Duration,8,float,0xcc
+(base),Owner_Light_Effect_Pulse_Count,6,int,0xd0
+(base),Target_Light_Effect_Type,14,enum,0xd4
+(base),Target_Light_Effect_Color,16,colour,0xd8
+(base),Target_Light_Effect_Color2,16,colour,0xe4
+(base),Target_Light_Effect_Duration,8,float,0xf0
+(base),Target_Light_Effect_Pulse_Count,6,int,0xf4
+(base),Owner_Particle_Effect,29,particle type,0xf8
+(base),Owner_Particle_Bone_Name,27,bone name,0x108
+(base),Target_Particle_Effect,29,particle type,0x120
+(base),Target_Particle_Bone_Name,27,bone name,0x130
+(base),SFXEvent_Activate,31,SFX event,0x148
+(base),SFXEvent_Target_Affected,31,SFX event,0x158
+(base),Min_Respawn_Time,8,float,0x54
+(base),Max_Respawn_Time,8,float,0x58
+(base),Must_Be_Bought_On_Black_Market,0,bool,0x168
+Berserker_Ability,Activation_Min_Range,8,float,0x178
+Berserker_Ability,Activation_Max_Range,8,float,0x17c
+Berserker_Ability,Berserker_Speed,8,float,0x180
+Berserker_Ability,Berserker_Damage,8,float,0x184
+Berserker_Ability,Berserker_Damage_Range,8,float,0x188
+Berserker_Ability,Berserker_Duration_In_Secs,8,float,0x18c
+Blast_Ability,Charge_Up_Seconds,8,float,0x178
+Blast_Ability,Damage_Multiplier,8,float,0x17c
+Blast_Ability,Charging_Effect,29,particle type,0x190
+Blast_Ability,Charged_Effect,29,particle type,0x180
+Blast_Ability,Stealth_Color,22,,0x178
+Blast_Ability,Stealth_Transition_Time,8,float,0x188
+Buzz_Droids_Ability,Activation_Min_Range,8,float,0x178
+Buzz_Droids_Ability,Activation_Max_Range,8,float,0x17c
+Buzz_Droids_Ability,Object_Type,29,particle type,0x198
+Buzz_Droids_Ability,Chase_Radius,8,float,0x188
+Buzz_Droids_Ability,Damage_Radius,8,float,0x184
+Buzz_Droids_Ability,Enemy_Damage_Per_Second,8,float,0x190
+Buzz_Droids_Ability,Own_Damage_Per_Second,8,float,0x18c
+Buzz_Droids_Ability,Activation_Time_In_Seconds,8,float,0x180
+Buzz_Droids_Ability,Activate_SFX,31,SFX event,0x1a8
+Cluster_Bomb_Ability,Detonation_Time_In_Secs,8,float,0x178
+Cluster_Bomb_Ability,Bomb_Type,29,particle type,0x180
+Cluster_Bomb_Ability,Number_Of_Bombs,6,int,0x190
+Cluster_Bomb_Ability,Stealth_Color,22,,0x178
+Cluster_Bomb_Ability,Stealth_Transition_Time,8,float,0x188
+Combat_Bonus_Ability,Health_Bonus_Percentage,8,float,0x178
+Combat_Bonus_Ability,Damage_Bonus_Percentage,8,float,0x17c
+Combat_Bonus_Ability,Energy_Pool_Bonus_Percentage,8,float,0x180
+Combat_Bonus_Ability,Shield_Bonus_Percentage,8,float,0x184
+Combat_Bonus_Ability,Movement_Speed_Bonus_Percentage,8,float,0x188
+Combat_Bonus_Ability,Defense_Bonus_Percentage,8,float,0x18c
+Combat_Bonus_Ability,Ability_Recharge_Bonus_Percentage,8,float,0x190
+Combat_Bonus_Ability,Fire_Range_Bonus_Percentage,8,float,0x194
+Combat_Bonus_Ability,Tactical_Build_Time_Bonus_Percentage,8,float,0x198
+Combat_Bonus_Ability,Stacking_Category,6,int,0x19c
+Combat_Bonus_Ability,Specific_Faction,23,string,0x1a0
+Concentrate_Fire_Attack_Ability,Target_Damage_Increase_Percent,8,float,0x178
+Concentrate_Fire_Attack_Ability,Target_Speed_Decrease_Percent,8,float,0x17c
+Concentrate_Fire_Attack_Ability,Stacking_Category,6,int,0x180
+Corrupt_Planet_Ability,Required_Corruption_Level,6,int,0x178
+Corrupt_Planet_Ability,Transition_Time_In_Secs,8,float,0x17c
+Corrupt_Systems_Ability,Activation_Min_Range,8,float,0x178
+Corrupt_Systems_Ability,Activation_Max_Range,8,float,0x17c
+Corrupt_Systems_Ability,Duration_In_Seconds,8,float,0x180
+Corrupt_Systems_Ability,Shield_Drain_Per_Second,8,float,0x184
+Corrupt_Systems_Ability,Inaccuracy_Radius,8,float,0x188
+Demolition_Ability,Activation_Chance,8,float,0x180
+Demolition_Ability,Activation_Min_Range,8,float,0x178
+Demolition_Ability,Activation_Max_Range,8,float,0x17c
+Demolition_Ability,Damage_Amount,8,float,0x184
+Demolition_Ability,Damage_Percentage,8,float,0x188
+Demolition_Ability,Bomb_Type,29,particle type,0x190
+Demolition_Ability,Bomb_Position_Offset,16,colour,0x1a4
+Demolition_Ability,Bomb_Spawn_Frame,6,int,0x1b0
+Demolition_Ability,Bomb_Damage_Type,14,enum,0x1a0
+Demolition_Ability,Bomb_Timer_In_Secs,8,float,0x1b4
+Detect_Hero_Ability,Detect_Interval_In_Seconds,8,float,0x178
+Detect_Hero_Ability,Detection_Chance,9,float (chance),0x17c
+Detect_Hero_Ability,Detect_Credit_Siphon_Effects,0,bool,0x180
+Drain_Life_Ability,Duration_In_Seconds,8,float,0x17c
+Drain_Life_Ability,Charging_Time_In_Seconds,8,float,0x180
+Drain_Life_Ability,Damage_Per_Second,8,float,0x178
+Drain_Life_Ability,Drain_Effect_Name,23,string,0x188
+Drain_Life_Ability,Drain_Source_Bone_Name,23,string,0x1a8
+Drain_Life_Ability,Drain_Target_Bone_Name,23,string,0x1c8
+Drain_Life_Ability,Drain_Radius,8,float,0x1e8
+Drain_Life_Ability,Max_Drain_Victims,6,int,0x1ec
+Drain_Life_Ability,Should_Heal,0,bool,0x1f0
+Earthquake_Attack_Ability,Activation_Chance,8,float,0x180
+Earthquake_Attack_Ability,Activation_Min_Range,8,float,0x178
+Earthquake_Attack_Ability,Activation_Max_Range,8,float,0x17c
+Earthquake_Attack_Ability,Damage_Amount,8,float,0x184
+Earthquake_Attack_Ability,Damage_Percentage,8,float,0x188
+Earthquake_Attack_Ability,Damage_Interval_In_Secs,8,float,0x18c
+Eat_Attack_Ability,Activation_Chance,8,float,0x178
+Eat_Attack_Ability,Activation_Min_Range,8,float,0x17c
+Eat_Attack_Ability,Activation_Max_Range,8,float,0x180
+Eat_Attack_Ability,Damage_Amount,8,float,0x184
+Eat_Attack_Ability,Damage_Percentage,8,float,0x188
+Eat_Attack_Ability,Damage_Type,14,enum,0x18c
+Eat_Attack_Ability,Attack_Animation,14,enum,0x190
+Eat_Attack_Ability,Attack_Animation_Speedup,8,float,0x194
+Eat_Attack_Ability,Owner_Attachment_Bone,27,bone name,0x198
+Eat_Attack_Ability,Target_Attachment_Bone,27,bone name,0x1b0
+Eat_Attack_Ability,Attachment_Frame,6,int,0x1c8
+Eat_Attack_Ability,Target_Destruction_Frame,6,int,0x1cc
+Eat_Attack_Ability,Target_Grabbed_Animation,14,enum,0x1d0
+Eat_Attack_Ability,Needs_To_Rotate,0,bool,0x1d4
+Eat_Attack_Ability,Rotation_Base_Bone_Name,23,string,0x1d8
+Eat_Attack_Ability,Health_Per_Victim,8,float,0x1f8
+Enable_Ability,Ability_Name,23,string,0x178
+Enable_Ability,Affects_All_Allies,0,bool,0x198
+Enable_Radar_Ability,Affects_All_Allies,0,bool,0x178
+Energy_Weapon_Attack_Ability,Activation_Min_Range,8,float,0x17c
+Energy_Weapon_Attack_Ability,Activation_Max_Range,8,float,0x180
+Energy_Weapon_Attack_Ability,Damage_Per_Frame,8,float,0x178
+Energy_Weapon_Attack_Ability,Beam_Color,22,,0x184
+Energy_Weapon_Attack_Ability,Beam_Frames,6,int,0x198
+Energy_Weapon_Attack_Ability,Beam_Width,8,float,0x194
+Energy_Weapon_Attack_Ability,Beam_Texture,23,string,0x1a0
+Enhance_Defense_Ability,Enhancement_Percentage,8,float,0x178
+Enhance_Defense_Ability,Stacking_Category,6,int,0x17c
+Enhance_Defense_Ability,Apply_To_All_Allies,0,bool,0x180
+Find_Weakness_Ability,Damage_Bonus_Percentage,8,float,0x178
+Find_Weakness_Ability,Stacking_Category,6,int,0x17c
+Force_Cloak_Ability,Force_Cloak_Color,22,,0x178
+Force_Cloak_Ability,Force_Cloak_Transition_In_Secs,8,float,0x188
+Force_Confuse_Ability,Activation_Min_Range,8,float,0x178
+Force_Confuse_Ability,Activation_Max_Range,8,float,0x17c
+Force_Confuse_Ability,Confuse_Time_In_Secs,8,float,0x180
+Force_Confuse_Ability,Confuse_Range,8,float,0x184
+Force_Confuse_Ability,Confuse_Travel_Time_In_Secs,8,float,0x188
+Force_Confuse_Ability,Confuse_Effect,29,particle type,0x190
+Force_Confuse_Ability,Stealth_Color,22,,0x178
+Force_Confuse_Ability,Stealth_Transition_Time,8,float,0x188
+Force_Healing_Ability,Heal_Range,8,float,0x178
+Force_Healing_Ability,Heal_Percent,8,float,0x17c
+Force_Healing_Ability,Heal_Amount,8,float,0x180
+Force_Healing_Ability,Heal_Interval_In_Secs,8,float,0x184
+Force_Healing_Ability,Single_Target_Heal,0,bool,0x188
+Force_Healing_Ability,Heal_Range_Blob_Material,23,string,0x190
+Force_Healing_Ability,Blob_Color,22,,0x1b0
+Force_Lightning_Ability,Activation_Min_Range,8,float,0x178
+Force_Lightning_Ability,Activation_Max_Range,8,float,0x17c
+Force_Lightning_Ability,Damage_Amount,8,float,0x180
+Force_Lightning_Ability,Damage_Application_Time_In_Secs,8,float,0x184
+Force_Lightning_Ability,Start_Lightning_Frame_Number,8,float,0x188
+Force_Lightning_Ability,Lightning_Effect_Name,23,string,0x190
+Force_Lightning_Ability,Lightning_Source_Bone_Name,23,string,0x1b0
+Force_Lightning_Ability,Lightning_Target_Bone_Name,23,string,0x1d0
+Force_Lightning_Ability,Lightning_Max_Targets,6,int,0x1f0
+Force_Lightning_Ability,Lightning_Targets_Radius,8,float,0x1f4
+Force_Sight_Ability,Force_Sight_Duration_In_Secs,8,float,0x178
+Force_Sight_Ability,Stealth_Color,22,,0x178
+Force_Sight_Ability,Stealth_Transition_Time,8,float,0x188
+Force_Telekinesis_Ability,Activation_Chance,8,float,0x180
+Force_Telekinesis_Ability,Activation_Min_Range,8,float,0x178
+Force_Telekinesis_Ability,Activation_Max_Range,8,float,0x17c
+Force_Telekinesis_Ability,Damage_Amount,8,float,0x184
+Force_Telekinesis_Ability,Damage_Percentage,8,float,0x188
+Force_Telekinesis_Ability,Damage_Interval_In_Secs,8,float,0x18c
+Force_Whirlwind_Ability,Activation_Chance,48,,0x178
+Force_Whirlwind_Ability,Activation_Min_Range,8,float,0x1a0
+Force_Whirlwind_Ability,Activation_Max_Range,8,float,0x1a4
+Force_Whirlwind_Ability,Stealth_Color,22,,0x178
+Force_Whirlwind_Ability,Stealth_Transition_Time,8,float,0x188
+Galactic_Stealth_Ability,Evade_Detection_Chance,9,float (chance),0x178
+Galactic_Stealth_Ability,FOW_Reveal_Range_Multiplier,8,float,0x17c
+Galactic_Stealth_Ability,Reinforcement_Time_Multiplier,8,float,0x180
+Galactic_Stealth_Ability,Stealth_Duration_Multiplier,8,float,0x184
+Galactic_Stealth_Ability,Capture_Point_Time_Multiplier,8,float,0x188
+Galactic_Stealth_Ability,Base_Shield_Upgrade,0,bool,0x190
+Galactic_Stealth_Ability,Enable_Bombing_Runs,0,bool,0x191
+Galactic_Stealth_Ability,Enable_Special_Weapons,0,bool,0x192
+Galactic_Stealth_Ability,Apply_To_All_Allies,0,bool,0x195
+Galactic_Stealth_Ability,Reverse_Application_Logic,0,bool,0x196
+Galactic_Stealth_Ability,Stacking_Category,6,int,0x178
+Galactic_Stealth_Ability,Enable_Planetary_Bombardment,0,bool,0x193
+Galactic_Stealth_Ability,Reinforcement_Deploy_Time_Multiplier,8,float,0x18c
+Galactic_Stealth_Ability,Disable_Reinforcement_Vulnerability,0,bool,0x194
+Galaxy_Wide_Upgrade_Ability,Space_Upgrade_Type,29,particle type,0x178
+Galaxy_Wide_Upgrade_Ability,Land_Upgrade_Type,29,particle type,0x188
+Garrison_Upgrade_Ability,Additional_Garrison_Units,30,type list,0x180
+Garrison_Upgrade_Ability,Apply_To_All_Allies,0,bool,0x178
+Generic_Attack_Ability,Activation_Chance,8,float,0x178
+Generic_Attack_Ability,Activation_Min_Range,8,float,0x17c
+Generic_Attack_Ability,Activation_Max_Range,8,float,0x180
+Generic_Attack_Ability,Damage_Amount,8,float,0x184
+Generic_Attack_Ability,Damage_Percentage,8,float,0x188
+Generic_Attack_Ability,Damage_Type,14,enum,0x18c
+Generic_Attack_Ability,Attack_Animation,14,enum,0x190
+Generic_Attack_Ability,Attack_Animation_Speedup,8,float,0x194
+Generic_Attack_Ability,Damage_Frame_Number,6,int,0x198
+Grenade_Attack_Ability,Activation_Chance,48,,0x178
+Grenade_Attack_Ability,Activation_Min_Range,8,float,0x1a0
+Grenade_Attack_Ability,Activation_Max_Range,8,float,0x1a4
+Grenade_Attack_Ability,Requires_Direct_Player_Command,0,bool,0x1a8
+Grenade_Attack_Ability,Grenade_Type,29,particle type,0x1b0
+Grenade_Attack_Ability,Grenade_Toss_Anim,14,enum,0x1c0
+Grenade_Attack_Ability,Grenade_Spawn_Frame,8,float,0x1c4
+Grenade_Attack_Ability,Grenade_Spawn_Bone,23,string,0x1c8
+Grenade_Attack_Ability,Grenade_Explode_Timer_In_Secs,8,float,0x1e8
+Hack_Ability,Team_Member_With_Ability,29,particle type,0x1e8
+Hack_Ability,Activation_Min_Range,8,float,0x178
+Hack_Ability,Activation_Max_Range,8,float,0x17c
+Hack_Ability,Lightning_Effect_Name,23,string,0x180
+Hack_Ability,Lightning_Source_Bone_Name,23,string,0x1a0
+Hack_Ability,Lightning_Target_Bone_Name,23,string,0x1c0
+Hack_Ability,Lightning_Max_Targets,6,int,0x1e0
+Hack_Ability,Lightning_Targets_Radius,8,float,0x1e4
+Hero_Assassin_Ability,Can_Assassinate_Minor_Heroes,0,bool,0x178
+Hero_Assassin_Ability,Can_Assassinate_Major_Heroes,0,bool,0x179
+Hero_Assassin_Ability,Trigger_Only_On_Defense,0,bool,0x17a
+Hero_Assassin_Ability,Chance_To_Succeed,8,float,0x17c
+Hero_Assassin_Ability,Chance_To_Be_Caught_Upon_Failure,8,float,0x180
+Hero_Protection_Ability,Neutralization_Cost_Multiplier,8,float,0x178
+Hero_Protection_Ability,Stacking_Category,6,int,0x17c
+Income_Stream_Ability,Base_Income_Value,8,float,0x178
+Income_Stream_Ability,Base_Interval_In_Secs,8,float,0x17c
+Income_Stream_Ability,Owner_Income_Percentage,8,float,0x180
+Income_Stream_Ability,Split_Income_With_Allies,0,bool,0x184
+Income_Stream_Ability,Split_Favors_Owner,0,bool,0x185
+Income_Stream_Ability,Full_Amount_To_Everyone,0,bool,0x186
+Income_Stream_Mod_Ability,Income_Multiplier,8,float,0x178
+Income_Stream_Mod_Ability,Income_Additive_Value,8,float,0x17c
+Income_Stream_Mod_Ability,Interval_Multiplier,8,float,0x180
+Income_Stream_Mod_Ability,Stacking_Category,6,int,0x184
+Income_Stream_Mod_Ability,Target_Stream_Source,29,particle type,0x188
+Income_Stream_Mod_Ability,Affects_All_Allied_Sources,0,bool,0x198
+Income_Stream_Mod_Ability,Reverse_Application_Logic,0,bool,0x199
+Infection_Ability,Activation_Min_Range,8,float,0x178
+Infection_Ability,Activation_Max_Range,8,float,0x17c
+Infection_Ability,Shoot_Anim,14,enum,0x180
+Infection_Ability,Spawn_Frame,8,float,0x184
+Infection_Ability,Spawn_Bone,23,string,0x188
+Infection_Ability,Damage_Per_Second,8,float,0x1a8
+Infection_Ability,Duration_Of_Infection,8,float,0x1d0
+Infection_Ability,Projectile_Type,29,particle type,0x1b0
+Infection_Ability,Infection_CategoryMask,86,category mask,0x1c0
+Infection_Ability,Distance_To_Infect,8,float,0x1c8
+Infection_Ability,Infection_Particle,29,particle type,0x1d8
+Infection_Ability,Seconds_To_Infect,8,float,0x1cc
+Ion_Cannon_Shot_Attack_Ability,Dummy,6,int,0x178
+Ion_Cannon_Shot_Attack_Ability,Activation_Min_Range,8,float,0x17c
+Ion_Cannon_Shot_Attack_Ability,Activation_Max_Range,8,float,0x180
+Laser_Defense_Ability,Stealth_Color,22,,0x178
+Laser_Defense_Ability,Stealth_Transition_Time,8,float,0x188
+Laser_Defense_Ability,Defense_Duration_In_Secs,8,float,0x178
+Laser_Defense_Ability,Laser_Color,22,,0x17c
+Laser_Defense_Ability,Bone_Names,42,,0x190
+Laser_Defense_Ability,Projectile_Types_Targeted,81,,0x1c0
+Laser_Defense_Ability,Protection_Radius,8,float,0x1d8
+Laser_Defense_Ability,Laser_Beam_Frames,6,int,0x1dc
+Laser_Defense_Ability,Laser_Beam_Width,8,float,0x1e4
+Laser_Defense_Ability,Projectile_Dist_Travelled,8,float,0x1e0
+Laser_Defense_Ability,Lightning_Effect_Name,23,string,0x1e8
+Laser_Defense_Ability,Laser_Beam_Texture,23,string,0x208
+Laser_Defense_Ability,Recharge_Time_In_Secs,8,float,0x228
+Laser_Defense_Ability,Zap_SFXEvent,31,SFX event,0x230
+Leech_Shields_Ability,Activation_Min_Range,8,float,0x178
+Leech_Shields_Ability,Activation_Max_Range,8,float,0x17c
+Leech_Shields_Ability,Duration_In_Secs,8,float,0x180
+Leech_Shields_Ability,Shield_Damage_Per_Second,8,float,0x184
+Leech_Shields_Ability,Damage_Multiplier,8,float,0x188
+Leech_Shields_Ability,Beam_Color,22,,0x18c
+Leech_Shields_Ability,Beam_Bone_Name,23,string,0x1a0
+Leech_Shields_Ability,Beam_Frames,6,int,0x1c0
+Leech_Shields_Ability,Beam_Width,8,float,0x1c4
+Leech_Shields_Ability,Beam_Texture_Name,23,string,0x1c8
+Leech_Shields_Ability,Beam_Effect_Name,23,string,0x1e8
+Leech_Shields_Ability,Leech_Effect,29,particle type,0x208
+Lucky_Shot_Attack_Ability,Target_Damage_Increase_Percent,8,float,0x178
+Lucky_Shot_Attack_Ability,Target_Speed_Decrease_Percent,8,float,0x17c
+Lucky_Shot_Attack_Ability,Stacking_Category,6,int,0x180
+Maximum_Firepower_Attack_Ability,Dummy,6,int,0x178
+Permanent_Weapon_Swap_Ability,Weapon_Index,6,int,0x178
+Permanent_Weapon_Swap_Ability,Force_Cloak_Color,22,,0x178
+Permanent_Weapon_Swap_Ability,Force_Cloak_Transition_In_Secs,8,float,0x188
+Personal_Flame_Thrower_Ability,Activation_Min_Range,8,float,0x178
+Personal_Flame_Thrower_Ability,Activation_Max_Range,8,float,0x17c
+Personal_Flame_Thrower_Ability,Damage_Arc_In_Degrees,8,float,0x188
+Personal_Flame_Thrower_Ability,Damage_Amount,8,float,0x184
+Personal_Flame_Thrower_Ability,Fire_Time_In_Secs,8,float,0x18c
+Personal_Flame_Thrower_Ability,Recharge_Time_In_Secs,8,float,0x194
+Personal_Flame_Thrower_Ability,Damage_Delay_In_Secs,8,float,0x190
+Personal_Flame_Thrower_Ability,Flame_Emitter_Model_Name,23,string,0x198
+Personal_Flame_Thrower_Ability,Damage_Type,14,enum,0x180
+Planet_Income_Bonus_Ability,Percentage_Income_Modifier,8,float,0x178
+Planet_Income_Bonus_Ability,Absolute_Income_Modifier,8,float,0x17c
+Planet_Income_Bonus_Ability,Additional_Multiplier_On_Mining_Colonies,8,float,0x180
+Planet_Income_Bonus_Ability,Specific_Mod_Source_Text,23,string,0x188
+Planet_Income_Gambling_Ability,Evaluation_Interval_In_Secs,8,float,0x178
+Planet_Income_Gambling_Ability,Min_Income_Modifier,8,float,0x17c
+Planet_Income_Gambling_Ability,Max_Income_Modifier,8,float,0x180
+Planet_Income_Gambling_Ability,Chance_To_Win,8,float,0x184
+Political_Control_Bonus_Ability,Political_Change,6,int,0x178
+Political_Control_Bonus_Ability,Change_Duration_In_Seconds,8,float,0x17c
+Political_Transition_Bonus_Ability,Time_Reduction_Percentage,8,float,0x178
+Political_Transition_Bonus_Ability,Stacking_Category,6,int,0x17c
+Proximity_Mines_Ability,Activation_Min_Range,8,float,0x178
+Proximity_Mines_Ability,Activation_Max_Range,8,float,0x17c
+Proximity_Mines_Ability,Mine_Type,29,particle type,0x188
+Proximity_Mines_Ability,Trigger_Radius,8,float,0x184
+Proximity_Mines_Ability,Number_Of_Mines,6,int,0x198
+Proximity_Mines_Ability,Activation_Time_In_Seconds,8,float,0x180
+Proximity_Mines_Ability,Activate_SFX,31,SFX event,0x1a0
+Proximity_Mines_Ability,Duration_In_Seconds,8,float,0x17c
+Proximity_Mines_Ability,Charging_Time_In_Seconds,8,float,0x180
+Proximity_Mines_Ability,Damage_Per_Second,8,float,0x178
+Proximity_Mines_Ability,Drain_Effect_Name,23,string,0x188
+Proximity_Mines_Ability,Drain_Source_Bone_Name,23,string,0x1a8
+Radioactive_Contaminate_Ability,Activation_Min_Range,8,float,0x178
+Radioactive_Contaminate_Ability,Activation_Max_Range,8,float,0x17c
+Radioactive_Contaminate_Ability,Spray_Time_In_Secs,8,float,0x180
+Radioactive_Contaminate_Ability,Emitter_Name,23,string,0x188
+Radioactive_Contaminate_Ability,Contamination_Object_Name,23,string,0x1a8
+Radioactive_Contaminate_Ability,SFXEvent_Radioactive,31,SFX event,0x1c8
+Redirect_Blaster_Ability,Redirect_Chance,8,float,0x178
+Redirect_Blaster_Ability,Block_Chance,8,float,0x17c
+Redirect_Blaster_Ability,Reaction_Arc_In_Degrees,8,float,0x180
+Redirect_Blaster_Ability,Max_Projectile_Redirection_Angle_In_Degrees,8,float,0x184
+Redirect_Blaster_Ability,Turn_To_Face_Unblockable_Shots,0,bool,0x188
+Redirect_Blaster_Ability,Absorb_Chance,8,float,0x178
+Redirect_Blaster_Ability,Damage_Absorb_Percentage,8,float,0x17c
+Redirect_Blaster_Ability,Damage_Absorb_Amount,8,float,0x180
+Reduce_Production_Price_Ability,Price_Reduction_Percentage,8,float,0x178
+Reduce_Production_Price_Ability,Stacking_Category,6,int,0x17c
+Reduce_Production_Price_Ability,Galaxy_Wide,0,bool,0x180
+Reduce_Production_Time_Ability,Time_Reduction_Percentage,8,float,0x178
+Reduce_Production_Time_Ability,Stacking_Category,6,int,0x17c
+Reduce_Production_Time_Ability,Galaxy_Wide,0,bool,0x180
+Reduce_Technology_Price_Ability,Price_Reduction_Percentage,8,float,0x178
+Reduce_Technology_Price_Ability,FOW_Reveal_Range_Multiplier,8,float,0x17c
+Reduce_Technology_Price_Ability,Reinforcement_Time_Multiplier,8,float,0x180
+Reduce_Technology_Price_Ability,Stealth_Duration_Multiplier,8,float,0x184
+Reduce_Technology_Price_Ability,Capture_Point_Time_Multiplier,8,float,0x188
+Reduce_Technology_Price_Ability,Base_Shield_Upgrade,0,bool,0x190
+Reduce_Technology_Price_Ability,Enable_Bombing_Runs,0,bool,0x191
+Reduce_Technology_Price_Ability,Enable_Special_Weapons,0,bool,0x192
+Reduce_Technology_Price_Ability,Apply_To_All_Allies,0,bool,0x195
+Reduce_Technology_Price_Ability,Reverse_Application_Logic,0,bool,0x196
+Reduce_Technology_Price_Ability,Stacking_Category,6,int,0x178
+Reduce_Technology_Price_Ability,Enable_Planetary_Bombardment,0,bool,0x193
+Reduce_Technology_Price_Ability,Reinforcement_Deploy_Time_Multiplier,8,float,0x18c
+Reduce_Technology_Price_Ability,Disable_Reinforcement_Vulnerability,0,bool,0x194
+Remote_Bomb_Ability,Bomb_Type,29,particle type,0x180
+Remote_Bomb_Ability,Activation_Min_Range,8,float,0x178
+Remote_Bomb_Ability,Activation_Max_Range,8,float,0x17c
+Remote_Bomb_Ability,Toss_Anim,14,enum,0x190
+Remote_Bomb_Ability,Spawn_Frame,8,float,0x194
+Remote_Bomb_Ability,Spawn_Bone,23,string,0x198
+Repair_Ability,Team_Member_With_Ability,29,particle type,0x1e8
+Repair_Ability,Activation_Min_Range,8,float,0x178
+Repair_Ability,Activation_Max_Range,8,float,0x17c
+Repair_Ability,Lightning_Effect_Name,23,string,0x180
+Repair_Ability,Lightning_Source_Bone_Name,23,string,0x1a0
+Repair_Ability,Lightning_Target_Bone_Name,23,string,0x1c0
+Repair_Ability,Lightning_Max_Targets,6,int,0x1e0
+Repair_Ability,Lightning_Targets_Radius,8,float,0x1e4
+Retreat_Protection_Ability,Retreat_Loss_Mitigation,9,float (chance),0x178
+Retreat_Protection_Ability,Stacking_Category,6,int,0x17c
+Saber_Throw_Ability,Activation_Min_Range,8,float,0x178
+Saber_Throw_Ability,Activation_Max_Range,8,float,0x17c
+Saber_Throw_Ability,Catch_Dist,8,float,0x180
+Saber_Throw_Ability,Saber_Name,23,string,0x188
+Sabotage_Political_Control_Ability,Political_Change,6,int,0x178
+Sabotage_Political_Control_Ability,Change_Duration_In_Seconds,8,float,0x180
+Sensor_Jamming_Ability,Duration_In_Secs,8,float,0x178
+Sensor_Jamming_Ability,Blob_Color,22,,0x1a0
+Sensor_Jamming_Ability,Blob_Material_Name,23,string,0x180
+Sensor_Jamming_Ability,Show_Blob_To_Enemies,0,bool,0x1b0
+Sensor_Jamming_Ability,Stealth_Color,22,,0x178
+Sensor_Jamming_Ability,Stealth_Transition_Time,8,float,0x188
+Shield_Flare_Ability,Max_Damage_Per_Victim,8,float,0x178
+Shield_Flare_Ability,Damage_Radius,8,float,0x17c
+Shield_Flare_Ability,Charge_Up_Seconds,8,float,0x180
+Shield_Flare_Ability,Stealth_Color,22,,0x178
+Shield_Flare_Ability,Stealth_Transition_Time,8,float,0x188
+Siphon_Credits_Ability,Min_Siphon_Percentage,9,float (chance),0x178
+Siphon_Credits_Ability,Max_Siphon_Percentage,9,float (chance),0x17c
+Siphon_Credits_Ability,Siphon_Duration_In_Cycles,6,int,0x180
+Spawn_Ability,Activation_Min_Range,8,float,0x178
+Spawn_Ability,Activation_Max_Range,8,float,0x17c
+Spawn_Ability,Object_Type,29,particle type,0x180
+Spawn_Ability,Creation_Delay_In_Seconds,8,float,0x190
+Spawn_Ability,Recharge_Time_In_Seconds,8,float,0x194
+Spawn_Ability,Spawn_Bone_Name,23,string,0x198
+Spawn_Ability,Self_Destruct_Radius,8,float,0x1b8
+Spawn_Ability,Explosion_Type,29,particle type,0x1c0
+Stun_Ability,Activation_Min_Range,8,float,0x178
+Stun_Ability,Activation_Max_Range,8,float,0x17c
+Stun_Ability,Stun_Time_In_Secs,8,float,0x180
+Stun_Ability,Stun_Range,8,float,0x184
+Stun_Ability,Stun_Travel_Time_In_Secs,8,float,0x188
+Stun_Ability,Stunned_Effect,29,particle type,0x190
+Summon_Ability,Activation_Min_Range,8,float,0x178
+Summon_Ability,Activation_Max_Range,8,float,0x17c
+Summon_Ability,Object_Type,29,particle type,0x180
+Summon_Ability,Creation_Delay_In_Seconds,8,float,0x190
+Summon_Ability,SFXEvent_Unit_Summoned,31,SFX event,0x198
+Super_Laser_Ability,Activation_Min_Range,8,float,0x17c
+Super_Laser_Ability,Activation_Max_Range,8,float,0x180
+Super_Laser_Ability,Damage_Per_Frame,8,float,0x178
+Super_Laser_Ability,Fire_Frame,8,float,0x184
+Super_Laser_Ability,Attack_Anim_Sub_Index,5,,0x188
+Super_Laser_Ability,Beam_Texture_Name,23,string,0x190
+Super_Laser_Ability,Num_Anim_Frames,6,int,0x1b0
+Super_Laser_Ability,Line_Width,8,float,0x1b4
+Super_Laser_Ability,Line_Color,22,,0x1b8
+Super_Laser_Ability,Face_Target,0,bool,0x1c8
+Super_Laser_Ability,Turn_Rate,8,float,0x1cc
+Super_Laser_Ability,Firing_Cone,8,float,0x1d0
+Super_Laser_Ability,Fire_Delay,8,float,0x1d4
+Super_Laser_Ability,Fire_Continuation,8,float,0x1d8
+System_Spy_Ability,Duration_In_Secs,8,float,0x178
+System_Spy_Ability,See_Base_Levels,0,bool,0x17c
+System_Spy_Ability,See_Credit_Income,0,bool,0x17d
+System_Spy_Ability,See_Credit_Income_Breakdown,0,bool,0x17e
+System_Spy_Ability,See_Num_Fleets,0,bool,0x180
+System_Spy_Ability,See_Most_Powerful_Ship,0,bool,0x181
+System_Spy_Ability,See_Fleet_Contents,0,bool,0x182
+System_Spy_Ability,See_Num_Ground_Companies,0,bool,0x183
+System_Spy_Ability,See_Ground_Company_Contents,0,bool,0x184
+System_Spy_Ability,See_Special_Structures,0,bool,0x185
+System_Spy_Ability,See_Political_Control,0,bool,0x186
+System_Spy_Ability,See_Political_Control_Breakdown,0,bool,0x187
+System_Spy_Ability,See_Current_Production,0,bool,0x17f
+System_Spy_Ability,See_Minor_Stealth_Heroes,0,bool,0x188
+System_Spy_Ability,See_Major_Stealth_Heroes,0,bool,0x189
+System_Spy_Ability,See_Force_Sensitive_Heroes,0,bool,0x18a
+System_Spy_Ability,See_Super_Weapons,0,bool,0x18b
+Tractor_Beam_Attack_Ability,Activation_Min_Range,8,float,0x180
+Tractor_Beam_Attack_Ability,Activation_Max_Range,8,float,0x184
+Tractor_Beam_Attack_Ability,Target_Speed_Decrease_Percent,8,float,0x178
+Tractor_Beam_Attack_Ability,Stacking_Category,6,int,0x17c
+Vehicle_Thief_Ability,Activation_Chance,8,float,0x180
+Vehicle_Thief_Ability,Activation_Min_Range,8,float,0x178
+Vehicle_Thief_Ability,Activation_Max_Range,8,float,0x17c
+Weatherproof_Ability,Apply_To_All_Allies,0,bool,0x178
